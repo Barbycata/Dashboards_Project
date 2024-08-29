@@ -1,0 +1,1381 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_f371e04db8989e7b2ef8bb2a5d3c6c02 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+             <h3 align="center" style="font-size:16px"><b>MAP ECOSYSTEM INCUBATOR, ACCELERATORS, COWORKING SPACES, BUSINESS SUPPORT AND NEXT EVENTS</b></h3>
+             
+    
+            <div class="folium-map" id="map_f371e04db8989e7b2ef8bb2a5d3c6c02" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_f371e04db8989e7b2ef8bb2a5d3c6c02 = L.map(
+                "map_f371e04db8989e7b2ef8bb2a5d3c6c02",
+                {
+                    center: [52.35, -2.3],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 8,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_33d0a9623d0cde04fbdedddd3ad1da89 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_33d0a9623d0cde04fbdedddd3ad1da89.addTo(map_f371e04db8989e7b2ef8bb2a5d3c6c02);
+        
+    
+            var marker_83316264abc52acb32ea78f9db8a480b = L.marker(
+                [52.101459, -2.303587],
+                {}
+            ).addTo(map_f371e04db8989e7b2ef8bb2a5d3c6c02);
+        
+    
+            var icon_d6f614dc8fd6b89d34d1ff164ab7747e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_83316264abc52acb32ea78f9db8a480b.setIcon(icon_d6f614dc8fd6b89d34d1ff164ab7747e);
+        
+    
+        var popup_6c40ae064c763f8b04a4e9bb8cb17284 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_0532e69a3d8fd5b19782719c95790f72 = $(`<div id="html_0532e69a3d8fd5b19782719c95790f72" style="width: 100.0%; height: 100.0%;"><b>BetaDen Accelerate </b><br>Accelerator<br><br><br><br>The BetaDen accelerator journey consists of intense, rapid, and immersive business growth aimed at turbo-charging the innovative companies with high commercial potential. We deliver the highest quality accelerator content for tech entrepreneurs and tech scale-ups, to help supercharge their innovative ideas.<br><a href='https://www.beta-den.com/cohort/' target='_blank'>More info</a></div>`)[0];
+                popup_6c40ae064c763f8b04a4e9bb8cb17284.setContent(html_0532e69a3d8fd5b19782719c95790f72);
+            
+        
+
+        marker_83316264abc52acb32ea78f9db8a480b.bindPopup(popup_6c40ae064c763f8b04a4e9bb8cb17284)
+        ;
+
+        
+    
+    
+            var marker_524855f1324d89abc03f6ad1c4e4226e = L.marker(
+                [52.098482, -2.303888],
+                {}
+            ).addTo(map_f371e04db8989e7b2ef8bb2a5d3c6c02);
+        
+    
+            var icon_fa7b80750e50ed1eef86f5b6a5111399 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_524855f1324d89abc03f6ad1c4e4226e.setIcon(icon_fa7b80750e50ed1eef86f5b6a5111399);
+        
+    
+        var popup_572840e10468d0f73f9baf16040dc8c1 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_7b5aaf19a297ddd16f4cb1349b231e07 = $(`<div id="html_7b5aaf19a297ddd16f4cb1349b231e07" style="width: 100.0%; height: 100.0%;"><b>BetaDen Incubate</b><br>Incubator<br><br><br><br>BetaDen Incubate is a dynamic programme where young innovative technology startups thrive, supported by experienced mentors, workshops, resources, and opportunities to propel their businesses forward.<br><a href='https://www.beta-den.com/incubate/' target='_blank'>More info</a></div>`)[0];
+                popup_572840e10468d0f73f9baf16040dc8c1.setContent(html_7b5aaf19a297ddd16f4cb1349b231e07);
+            
+        
+
+        marker_524855f1324d89abc03f6ad1c4e4226e.bindPopup(popup_572840e10468d0f73f9baf16040dc8c1)
+        ;
+
+        
+    
+    
+            var marker_00499a86211b8ee42d2e43bcb0e97ba2 = L.marker(
+                [52.111155, -2.326165],
+                {}
+            ).addTo(map_f371e04db8989e7b2ef8bb2a5d3c6c02);
+        
+    
+            var icon_80132cf10fbece76492ad079869abb0a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_00499a86211b8ee42d2e43bcb0e97ba2.setIcon(icon_80132cf10fbece76492ad079869abb0a);
+        
+    
+        var popup_45f58f8938ec78415f927709c1bf2f9a = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_7e41d60ee6caf5770065f6eedf4840f5 = $(`<div id="html_7e41d60ee6caf5770065f6eedf4840f5" style="width: 100.0%; height: 100.0%;"><b>Great Malvern incubator</b><br>Incubator<br><br><br><br>A modern coworking office, business incubator and private members’ space in a Grade II listed building. Members have free access to the whole building as a private office.<br><a href='https://www.bloom.space/malvern' target='_blank'>More info</a></div>`)[0];
+                popup_45f58f8938ec78415f927709c1bf2f9a.setContent(html_7e41d60ee6caf5770065f6eedf4840f5);
+            
+        
+
+        marker_00499a86211b8ee42d2e43bcb0e97ba2.bindPopup(popup_45f58f8938ec78415f927709c1bf2f9a)
+        ;
+
+        
+    
+    
+            var marker_0c7e1497492e1915d6caa6787154f129 = L.marker(
+                [52.684394, -2.424406],
+                {}
+            ).addTo(map_f371e04db8989e7b2ef8bb2a5d3c6c02);
+        
+    
+            var icon_aa46fda9c9137b949afe0078dfc3b757 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_0c7e1497492e1915d6caa6787154f129.setIcon(icon_aa46fda9c9137b949afe0078dfc3b757);
+        
+    
+        var popup_c0692b62c9baf6370e09abce65128a1d = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_ed6d1297c67978dda01d2a97c68b0e49 = $(`<div id="html_ed6d1297c67978dda01d2a97c68b0e49" style="width: 100.0%; height: 100.0%;"><b>e-Innovation Centre (EIC)</b><br>Incubator<br><br><br><br>Business Support: Work with the University of Wolverhampton a range of support and collaboration opportunities for Launchpad, Incubator, Grow-on, and Coworking; Business Networking with EIC community with some of the region's brightest companies housed. Businesses can benefit from year-round social and networking events; Each office space is provided with its own private network and Internet Connection. Supporting the creation and development of new technology and innovative businesses in Shropshire and the West Midlands by providing accommodation and services backed by a regional University that encourages innovation and enterprise.<br><a href='https://www.e-innovationcentre.co.uk/' target='_blank'>More info</a></div>`)[0];
+                popup_c0692b62c9baf6370e09abce65128a1d.setContent(html_ed6d1297c67978dda01d2a97c68b0e49);
+            
+        
+
+        marker_0c7e1497492e1915d6caa6787154f129.bindPopup(popup_c0692b62c9baf6370e09abce65128a1d)
+        ;
+
+        
+    
+    
+            var marker_1556b93a8d58c025181250ce29d26c9d = L.marker(
+                [52.033736, -2.687341],
+                {}
+            ).addTo(map_f371e04db8989e7b2ef8bb2a5d3c6c02);
+        
+    
+            var icon_7df83107a91db438453e63badd170263 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_1556b93a8d58c025181250ce29d26c9d.setIcon(icon_7df83107a91db438453e63badd170263);
+        
+    
+        var popup_697de4763c2dabfd891eff24696fe4d9 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_b1eeea9a0cc1fc31ec0137020adc61a7 = $(`<div id="html_b1eeea9a0cc1fc31ec0137020adc61a7" style="width: 100.0%; height: 100.0%;"><b>Cyber Quarter </b><br>Incubator<br><br><br><br>The new Cyber Quarter – Midlands Centre for Cyber Security provides a single hub for cyber security needs for small or large business. Midlands Centre for Cyber Security aims to Be a world leading facility and a global leader in cybersecurity innovation, Provide funded support to businesses facing emerging cyber security challenges, Be a home for companies within the cyber and IT sector, Support the commercial potential of newly developed cyber innovations with the latest product and process development, Host specialist cyber training and industry events.<br><a href='https://www.cyberquarter.co.uk/' target='_blank'>More info</a></div>`)[0];
+                popup_697de4763c2dabfd891eff24696fe4d9.setContent(html_b1eeea9a0cc1fc31ec0137020adc61a7);
+            
+        
+
+        marker_1556b93a8d58c025181250ce29d26c9d.bindPopup(popup_697de4763c2dabfd891eff24696fe4d9)
+        ;
+
+        
+    
+    
+            var marker_490488dd63fe1745afb301c787338286 = L.marker(
+                [52.105857, -2.299252],
+                {}
+            ).addTo(map_f371e04db8989e7b2ef8bb2a5d3c6c02);
+        
+    
+            var icon_69bbed1ecdf2e97c1c3ddb82ed581e8c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_490488dd63fe1745afb301c787338286.setIcon(icon_69bbed1ecdf2e97c1c3ddb82ed581e8c);
+        
+    
+        var popup_5b1b1717c2931f7d5f93999e4e632ca4 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_b42276fe50145e96c0347dbbee81d8d8 = $(`<div id="html_b42276fe50145e96c0347dbbee81d8d8" style="width: 100.0%; height: 100.0%;"><b>Malvern Hills Science Park</b><br>Coworking Space+<br><br><br><br>Malvern Hills Science Park offers access to investment funding to help businesses grow and resources for startups—mainly, provides office space, laboratories, conferencing suites, and the onsite café. Home to the Betaden Tech Accelerator focused on driving new products and solutions across a range of emerging technologies including AI, Hazard Intelligence, Biometrics, Cyber, 5G and many more.<br><a href='https://www.mhsp.co.uk' target='_blank'>More info</a></div>`)[0];
+                popup_5b1b1717c2931f7d5f93999e4e632ca4.setContent(html_b42276fe50145e96c0347dbbee81d8d8);
+            
+        
+
+        marker_490488dd63fe1745afb301c787338286.bindPopup(popup_5b1b1717c2931f7d5f93999e4e632ca4)
+        ;
+
+        
+    
+    
+            var marker_b251178f716d739799fcd1ccf6e3ab76 = L.marker(
+                [52.056046, -2.718428],
+                {}
+            ).addTo(map_f371e04db8989e7b2ef8bb2a5d3c6c02);
+        
+    
+            var icon_01aba3ef252e88ff7762fbead0eec40e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_b251178f716d739799fcd1ccf6e3ab76.setIcon(icon_01aba3ef252e88ff7762fbead0eec40e);
+        
+    
+        var popup_6b0bcce5ace28ccf545c0320a308c0ee = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_6f2587e4090df500151f35b53a8aa5ee = $(`<div id="html_6f2587e4090df500151f35b53a8aa5ee" style="width: 100.0%; height: 100.0%;"><b>Bloom.Space Hereford</b><br>Coworking Space+<br><br><br><br>Bloom.Space Hereford offers brand new, modern, open-plan coworking space with over 100 hot desks, private meeting rooms, pods for teams, breakout areas and a members’ kitchen, right in the city centre. It is a coworking space open to anyone wanting a wonderful place to work from. In addition, it is working with NMITE to create student and business interaction. <br><a href='https://www.bloom.space/hereford' target='_blank'>More info</a></div>`)[0];
+                popup_6b0bcce5ace28ccf545c0320a308c0ee.setContent(html_6f2587e4090df500151f35b53a8aa5ee);
+            
+        
+
+        marker_b251178f716d739799fcd1ccf6e3ab76.bindPopup(popup_6b0bcce5ace28ccf545c0320a308c0ee)
+        ;
+
+        
+    
+    
+            var marker_005cd8b5e855c9036878112382afd90b = L.marker(
+                [52.366847, -2.240725],
+                {}
+            ).addTo(map_f371e04db8989e7b2ef8bb2a5d3c6c02);
+        
+    
+            var icon_9bd5eaa2107c61f94dc3655906957ccd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_005cd8b5e855c9036878112382afd90b.setIcon(icon_9bd5eaa2107c61f94dc3655906957ccd);
+        
+    
+        var popup_91a0d6b2714b9bb14a37dded3ae62b87 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_0359439e8d42ac30c0ccb600db8105b3 = $(`<div id="html_0359439e8d42ac30c0ccb600db8105b3" style="width: 100.0%; height: 100.0%;"><b>Wyre Forest Space At Hoo Farm</b><br>Coworking Space<br><br><br><br>Whether it's a retail shop brimming with products, an industrial space bustling with machinery, a relaxed leisure space, a food and beverage establishment, or an office designed for a wide range of enterprises, the right workspace can dramatically impact productivity and business growth, whatever your needs, we have the space<br><a href='https://www.wyreforestspace.co.uk/industrial-space/space-at-hoo-farm/' target='_blank'>More info</a></div>`)[0];
+                popup_91a0d6b2714b9bb14a37dded3ae62b87.setContent(html_0359439e8d42ac30c0ccb600db8105b3);
+            
+        
+
+        marker_005cd8b5e855c9036878112382afd90b.bindPopup(popup_91a0d6b2714b9bb14a37dded3ae62b87)
+        ;
+
+        
+    
+    
+            var marker_39360717b021f7ab51f10b951b392c10 = L.marker(
+                [52.360051, -2.269572],
+                {}
+            ).addTo(map_f371e04db8989e7b2ef8bb2a5d3c6c02);
+        
+    
+            var icon_093f0e95a961cbb72b03feffbcb7bed5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_39360717b021f7ab51f10b951b392c10.setIcon(icon_093f0e95a961cbb72b03feffbcb7bed5);
+        
+    
+        var popup_2ccb54d01b00a3e7f42ae85938ce836c = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_c93fe5f6b0f30a9e1a97864c1dd35f81 = $(`<div id="html_c93fe5f6b0f30a9e1a97864c1dd35f81" style="width: 100.0%; height: 100.0%;"><b>Wyre Forest Space House</b><br>Coworking Space<br><br><br><br>Whether it's a retail shop brimming with products, an industrial space bustling with machinery, a relaxed leisure space, a food and beverage establishment, or an office designed for a wide range of enterprises, the right workspace can dramatically impact productivity and business growth, whatever your needs, we have the space<br><a href='https://www.wyreforestspace.co.uk/office-space/' target='_blank'>More info</a></div>`)[0];
+                popup_2ccb54d01b00a3e7f42ae85938ce836c.setContent(html_c93fe5f6b0f30a9e1a97864c1dd35f81);
+            
+        
+
+        marker_39360717b021f7ab51f10b951b392c10.bindPopup(popup_2ccb54d01b00a3e7f42ae85938ce836c)
+        ;
+
+        
+    
+    
+            var marker_dab5521c10e77905bf25b9864e891667 = L.marker(
+                [52.088553, -2.341691],
+                {}
+            ).addTo(map_f371e04db8989e7b2ef8bb2a5d3c6c02);
+        
+    
+            var icon_cea3663fedb4ea7172f9fffdbed4459a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_dab5521c10e77905bf25b9864e891667.setIcon(icon_cea3663fedb4ea7172f9fffdbed4459a);
+        
+    
+        var popup_2d087b68b5f1cf059f5634a59dfd9289 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_3d69611805e0ed2139671485381cc50c = $(`<div id="html_3d69611805e0ed2139671485381cc50c" style="width: 100.0%; height: 100.0%;"><b>The Wyche Innovation Centre</b><br>Coworking Space<br><br><br><br>the Wyche Innovation Centre is a boutique business accelerator, technology incubator, and co-working space. This has benefited both the Herefordshire and Worcestershire economies, as being situated on the county border, employees come from both counties.<br><a href='https://www.wyche-innovation.com' target='_blank'>More info</a></div>`)[0];
+                popup_2d087b68b5f1cf059f5634a59dfd9289.setContent(html_3d69611805e0ed2139671485381cc50c);
+            
+        
+
+        marker_dab5521c10e77905bf25b9864e891667.bindPopup(popup_2d087b68b5f1cf059f5634a59dfd9289)
+        ;
+
+        
+    
+    
+            var marker_70896ea4d08ceee509dcd96d5dc1378b = L.marker(
+                [52.386254, -2.246062],
+                {}
+            ).addTo(map_f371e04db8989e7b2ef8bb2a5d3c6c02);
+        
+    
+            var icon_048aed1b7957f34d33a8d4f97fde9abd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_70896ea4d08ceee509dcd96d5dc1378b.setIcon(icon_048aed1b7957f34d33a8d4f97fde9abd);
+        
+    
+        var popup_d96349a871391772f4bfea4a0aa067d1 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_d86734a26c22b77fa673aef64d0b53cd = $(`<div id="html_d86734a26c22b77fa673aef64d0b53cd" style="width: 100.0%; height: 100.0%;"><b>Creative hub Kidderminster</b><br>Coworking Space<br><br><br><br>As both a working hub and a site with venues for performance and exhibition, the site will be a destination for both regular users and the wider public from Kidderminster, Worcestershire and the greater Birmingham conurbation.The heritage building will provide 2,500 sqm of high-quality office space for creative industries and businesses. The former carpet showroom (later the Magistrates’ Court) will become a flexible studio and venue, with capacity for 120.<br><a href='https://www.wyreforestdc.gov.uk/planning-and-buildings/regeneration-and-major-developments/creative-hub/' target='_blank'>More info</a></div>`)[0];
+                popup_d96349a871391772f4bfea4a0aa067d1.setContent(html_d86734a26c22b77fa673aef64d0b53cd);
+            
+        
+
+        marker_70896ea4d08ceee509dcd96d5dc1378b.bindPopup(popup_d96349a871391772f4bfea4a0aa067d1)
+        ;
+
+        
+    
+    
+            var marker_2a40e12d6a486be1f28a8b6b9dd38604 = L.marker(
+                [52.190832, -2.220781],
+                {}
+            ).addTo(map_f371e04db8989e7b2ef8bb2a5d3c6c02);
+        
+    
+            var icon_2fa230956bf1d8f318df705f6e913073 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_2a40e12d6a486be1f28a8b6b9dd38604.setIcon(icon_2fa230956bf1d8f318df705f6e913073);
+        
+    
+        var popup_aa788ad6c09080a00a4fdcba548c9e7c = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_b03ddc6f409c530b52bc7ea92f322dc5 = $(`<div id="html_b03ddc6f409c530b52bc7ea92f322dc5" style="width: 100.0%; height: 100.0%;"><b>The Kiln</b><br>Coworking Space<br><br><br><br>The Kiln is a coworking space for Worcester’s remote workers and startup businesses. Offers a collaborative workspace, networking events, and business support for entrepreneurs and freelancers​ <br><a href='https://thekiln.co/' target='_blank'>More info</a></div>`)[0];
+                popup_aa788ad6c09080a00a4fdcba548c9e7c.setContent(html_b03ddc6f409c530b52bc7ea92f322dc5);
+            
+        
+
+        marker_2a40e12d6a486be1f28a8b6b9dd38604.bindPopup(popup_aa788ad6c09080a00a4fdcba548c9e7c)
+        ;
+
+        
+    
+    
+            var marker_b28050e6029c177e159ca348e08109bc = L.marker(
+                [52.104819, -2.311898],
+                {}
+            ).addTo(map_f371e04db8989e7b2ef8bb2a5d3c6c02);
+        
+    
+            var icon_279781e5df41d4b2d4b1e6ba8005384b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b28050e6029c177e159ca348e08109bc.setIcon(icon_279781e5df41d4b2d4b1e6ba8005384b);
+        
+    
+        var popup_a38cbae5a65991c0be54889073e609be = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_e923cd6868de0263a1490457a08219a5 = $(`<div id="html_e923cd6868de0263a1490457a08219a5" style="width: 100.0%; height: 100.0%;"><b>Betaden Workshops and Fireside Chats</b><br>Support Organisations<br><br>Workshops<br><br>Fostering a vibrant ecosystem that transcends boundaries and fuels the exchange of ideas. This is enabled through insightful business support workshops, lively networking events, and thought-provoking fireside chats with industry experts.<br><a href='https://www.beta-den.com/events/' target='_blank'>More info</a></div>`)[0];
+                popup_a38cbae5a65991c0be54889073e609be.setContent(html_e923cd6868de0263a1490457a08219a5);
+            
+        
+
+        marker_b28050e6029c177e159ca348e08109bc.bindPopup(popup_a38cbae5a65991c0be54889073e609be)
+        ;
+
+        
+    
+    
+            var marker_15ab3973bd428a076413ad9a7b80c358 = L.marker(
+                [52.060873, -2.697601],
+                {}
+            ).addTo(map_f371e04db8989e7b2ef8bb2a5d3c6c02);
+        
+    
+            var icon_3555ff0fe236ec5cccd8fa7a5182c436 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_15ab3973bd428a076413ad9a7b80c358.setIcon(icon_3555ff0fe236ec5cccd8fa7a5182c436);
+        
+    
+        var popup_3e708090a8e100eb574a4b99565701b7 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_c53660a502df951993d104c039c83158 = $(`<div id="html_c53660a502df951993d104c039c83158" style="width: 100.0%; height: 100.0%;"><b>Short Courses</b><br>Support Organisations<br><br>Workshops<br><br>Empower creativity and help to unlock or enhance creative talents.<br><a href='https://www.hca.ac.uk/course-level/short-courses' target='_blank'>More info</a></div>`)[0];
+                popup_3e708090a8e100eb574a4b99565701b7.setContent(html_c53660a502df951993d104c039c83158);
+            
+        
+
+        marker_15ab3973bd428a076413ad9a7b80c358.bindPopup(popup_3e708090a8e100eb574a4b99565701b7)
+        ;
+
+        
+    
+    
+            var marker_000a45d9319a4372163f09ba480464ab = L.marker(
+                [52.075966, -2.747928],
+                {}
+            ).addTo(map_f371e04db8989e7b2ef8bb2a5d3c6c02);
+        
+    
+            var icon_b33ec64d21591587ed13337ec2f35ef8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_000a45d9319a4372163f09ba480464ab.setIcon(icon_b33ec64d21591587ed13337ec2f35ef8);
+        
+    
+        var popup_594ee18324485e601a31c2fa65fd8f3b = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_f71d3b4885c41e280909b01d83ab2909 = $(`<div id="html_f71d3b4885c41e280909b01d83ab2909" style="width: 100.0%; height: 100.0%;"><b>Farm Business Advice</b><br>Support Organisations<br><br>Workshops<br><br>Herefordshire Rural Hub provides a range of support and resources to help secure economic, social and environmental resilience in the farming and rural businesses of Herefordshire. <br><a href='https://herefordshireruralhub.co.uk/about-us/' target='_blank'>More info</a></div>`)[0];
+                popup_594ee18324485e601a31c2fa65fd8f3b.setContent(html_f71d3b4885c41e280909b01d83ab2909);
+            
+        
+
+        marker_000a45d9319a4372163f09ba480464ab.bindPopup(popup_594ee18324485e601a31c2fa65fd8f3b)
+        ;
+
+        
+    
+    
+            var marker_b21d75774889c3a25e41a155617cfeaa = L.marker(
+                [52.043566, -2.691487],
+                {}
+            ).addTo(map_f371e04db8989e7b2ef8bb2a5d3c6c02);
+        
+    
+            var icon_76d1013bccc336542307a7f5622bc3be = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b21d75774889c3a25e41a155617cfeaa.setIcon(icon_76d1013bccc336542307a7f5622bc3be);
+        
+    
+        var popup_b93d5e9e9ae7433536d33a02a947a35d = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_19da30dd00869acd13343a354e77f265 = $(`<div id="html_19da30dd00869acd13343a354e77f265" style="width: 100.0%; height: 100.0%;"><b>Where Business Belongs</b><br>Support Organisations<br><br>Training courses and Events<br><br>Chamber of Commerce Membership provides essential services to help business connect and grow, including expert advice, memberships and access to cost savings.<br><a href='https://hwchamber.co.uk/' target='_blank'>More info</a></div>`)[0];
+                popup_b93d5e9e9ae7433536d33a02a947a35d.setContent(html_19da30dd00869acd13343a354e77f265);
+            
+        
+
+        marker_b21d75774889c3a25e41a155617cfeaa.bindPopup(popup_b93d5e9e9ae7433536d33a02a947a35d)
+        ;
+
+        
+    
+    
+            var marker_5ba65faff41671f5a5f94e62b47f17b9 = L.marker(
+                [52.061267, -2.714296],
+                {}
+            ).addTo(map_f371e04db8989e7b2ef8bb2a5d3c6c02);
+        
+    
+            var icon_7207c2743a7edc482154bb4bba6d40ec = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_5ba65faff41671f5a5f94e62b47f17b9.setIcon(icon_7207c2743a7edc482154bb4bba6d40ec);
+        
+    
+        var popup_8cc6e6541453a9c462927750afcc2dd8 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_261571b29c309a77adca4e4f6f9155bd = $(`<div id="html_261571b29c309a77adca4e4f6f9155bd" style="width: 100.0%; height: 100.0%;"><b>Herefordshire Business Support</b><br>Support Organisations<br><br>Networking<br><br>Regular networking event for local businesses and Useful Contacts for Business Support. Herefordshire Business Board is an independent body that has a vital role in supporting enterprise and economic growth for Herefordshire. It brings together representatives from the private sector and lead contacts within key regeneration projects across the county.<br><a href='https://www.herefordshirebusinessboard.co.uk/connect/business-support/' target='_blank'>More info</a></div>`)[0];
+                popup_8cc6e6541453a9c462927750afcc2dd8.setContent(html_261571b29c309a77adca4e4f6f9155bd);
+            
+        
+
+        marker_5ba65faff41671f5a5f94e62b47f17b9.bindPopup(popup_8cc6e6541453a9c462927750afcc2dd8)
+        ;
+
+        
+    
+    
+            var marker_085c2bb5534eb7ee23eb957e55279fcf = L.marker(
+                [52.172832, -2.235007],
+                {}
+            ).addTo(map_f371e04db8989e7b2ef8bb2a5d3c6c02);
+        
+    
+            var icon_89d5eb4c335961f2f7ab02b985e22869 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_085c2bb5534eb7ee23eb957e55279fcf.setIcon(icon_89d5eb4c335961f2f7ab02b985e22869);
+        
+    
+        var popup_73ace30832a34770c3f06131ada5a230 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_c3e61db0130c85a3c9379da3b8180fbc = $(`<div id="html_c3e61db0130c85a3c9379da3b8180fbc" style="width: 100.0%; height: 100.0%;"><b>Business Support</b><br>Support Organisations<br><br>Training courses, Workshops and Events<br><br>The Worcestershire Growth Hub is designed to be the place for businesses to come to, to access all of the support funds and schemes available to help businesses. The support can be grants and funding through to support schemes and membership programmes.<br><a href='https://worcestershiregrowthhub.co.uk/' target='_blank'>More info</a></div>`)[0];
+                popup_73ace30832a34770c3f06131ada5a230.setContent(html_c3e61db0130c85a3c9379da3b8180fbc);
+            
+        
+
+        marker_085c2bb5534eb7ee23eb957e55279fcf.bindPopup(popup_73ace30832a34770c3f06131ada5a230)
+        ;
+
+        
+    
+    
+            var marker_6d87304a699491d476608bea3fa0545f = L.marker(
+                [52.172832, -2.235007],
+                {}
+            ).addTo(map_f371e04db8989e7b2ef8bb2a5d3c6c02);
+        
+    
+            var icon_875e8477d92bb20797e1fea54330f0d9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6d87304a699491d476608bea3fa0545f.setIcon(icon_875e8477d92bb20797e1fea54330f0d9);
+        
+    
+        var popup_28be566e8b4f056c45123b8480164adc = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_227ecc851170cae9a262401c2bcebe3c = $(`<div id="html_227ecc851170cae9a262401c2bcebe3c" style="width: 100.0%; height: 100.0%;"><b>The Start-It Business Masterclass</b><br>Support Organisations<br><br>Workshops<br><br>The Start-It Business Masterclass equips budding entrepreneurs with the essential knowledge, skills and confidence needed to begin their business venture.The support runs for a total of 12 hours, over two days and includes masterclasses around, Exploring Enterprise; Market Research; Finance & Legal; and Business Planning. <br><a href='https://www.worcestershire.gov.uk/council-services/business/business-support-and-grants/enterprising-worcestershire-pre-start-support' target='_blank'>More info</a></div>`)[0];
+                popup_28be566e8b4f056c45123b8480164adc.setContent(html_227ecc851170cae9a262401c2bcebe3c);
+            
+        
+
+        marker_6d87304a699491d476608bea3fa0545f.bindPopup(popup_28be566e8b4f056c45123b8480164adc)
+        ;
+
+        
+    
+    
+            var marker_d492e875a54ec9c64970d3ee75106528 = L.marker(
+                [52.104819, -2.311898],
+                {}
+            ).addTo(map_f371e04db8989e7b2ef8bb2a5d3c6c02);
+        
+    
+            var icon_708b00605d85be6871033693da8ed219 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d492e875a54ec9c64970d3ee75106528.setIcon(icon_708b00605d85be6871033693da8ed219);
+        
+    
+        var popup_c0577857ee2dc61d86a364aea2950db3 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_b29c4ef01aa187fd3dab6c2ee668b953 = $(`<div id="html_b29c4ef01aa187fd3dab6c2ee668b953" style="width: 100.0%; height: 100.0%;"><b>Business Advice</b><br>Support Organisations<br><br>Training courses, Workshops and Events<br><br>Malvern Hills District Council is engaging with local businesses through a series of regular Business Briefing events. Each event will typically be focused on a topic of interest, and there will also be an opportunity for businesses to share their views on how the council can best support them, and to discuss any issues they may currently be facing, as well as an opportunity for networking. We work in partnership with Worcestershire Growth Hub(opens in a new window), part of the Government-supported growth hub network, bringing all aspects of business support into one place, making it clear and simple for businesses to access and find the help they need.  <br><a href='https://www.malvernhills.gov.uk/business/business-advice' target='_blank'>More info</a></div>`)[0];
+                popup_c0577857ee2dc61d86a364aea2950db3.setContent(html_b29c4ef01aa187fd3dab6c2ee668b953);
+            
+        
+
+        marker_d492e875a54ec9c64970d3ee75106528.bindPopup(popup_c0577857ee2dc61d86a364aea2950db3)
+        ;
+
+        
+    
+    
+            var marker_6a1d50b66f025a94560e03e0f29b5aa4 = L.marker(
+                [52.741515, -2.72867],
+                {}
+            ).addTo(map_f371e04db8989e7b2ef8bb2a5d3c6c02);
+        
+    
+            var icon_41f31ef8c463a34acf3eaccd7efd7de4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6a1d50b66f025a94560e03e0f29b5aa4.setIcon(icon_41f31ef8c463a34acf3eaccd7efd7de4);
+        
+    
+        var popup_48341208ff7e6dd7e12b4abdfb5636eb = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_906f99cfec11455e17235233a457fe4d = $(`<div id="html_906f99cfec11455e17235233a457fe4d" style="width: 100.0%; height: 100.0%;"><b>Business Support</b><br>Support Organisations<br><br>Training courses, Workshops and Events<br><br>The Shropshire Growth Hub is your single point of access to information on the vast range of support available to businesses in the region. Offering face-to-face advice on business grants, loans and support available for Shropshire businesses regardless of size or sector, from pre-start to established businesses.<br><a href='https://www.marchesgrowthhub.co.uk/about-us/mgh-shropshire/' target='_blank'>More info</a></div>`)[0];
+                popup_48341208ff7e6dd7e12b4abdfb5636eb.setContent(html_906f99cfec11455e17235233a457fe4d);
+            
+        
+
+        marker_6a1d50b66f025a94560e03e0f29b5aa4.bindPopup(popup_48341208ff7e6dd7e12b4abdfb5636eb)
+        ;
+
+        
+    
+    
+            var marker_4719757df9e6519da9e44f86ce178119 = L.marker(
+                [52.035937, -2.679969],
+                {}
+            ).addTo(map_f371e04db8989e7b2ef8bb2a5d3c6c02);
+        
+    
+            var icon_b1a85b1532b16edc30b67ecff40c1af2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_4719757df9e6519da9e44f86ce178119.setIcon(icon_b1a85b1532b16edc30b67ecff40c1af2);
+        
+    
+        var popup_271b29e818e981f3036dabb5a5e977fe = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_d93853c07c377219b7acd854bdd33e04 = $(`<div id="html_d93853c07c377219b7acd854bdd33e04" style="width: 100.0%; height: 100.0%;"><b>Support for Herefordshire businesses</b><br>Support Organisations<br><br>Training courses, Workshops and Events<br><br>The Herefordshire Growth Hub provides support to businesses of all sizes and across all sectors in the county. Our team offers free, impartial information and guidance on business grants, loans, support and other opportunities to help your business succeed.<br><a href='https://www.marchesgrowthhub.co.uk/about-us/herefordshire/' target='_blank'>More info</a></div>`)[0];
+                popup_271b29e818e981f3036dabb5a5e977fe.setContent(html_d93853c07c377219b7acd854bdd33e04);
+            
+        
+
+        marker_4719757df9e6519da9e44f86ce178119.bindPopup(popup_271b29e818e981f3036dabb5a5e977fe)
+        ;
+
+        
+    
+    
+            var marker_00a5d355f52ad4db8c7a55b6e65c7150 = L.marker(
+                [52.674053, -2.447126],
+                {}
+            ).addTo(map_f371e04db8989e7b2ef8bb2a5d3c6c02);
+        
+    
+            var icon_3cb0546b3c18d7e78cc5caf02f597d4a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_00a5d355f52ad4db8c7a55b6e65c7150.setIcon(icon_3cb0546b3c18d7e78cc5caf02f597d4a);
+        
+    
+        var popup_9993e00c200ed2d8112aa93c795ba0a5 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_41bb6b2c8cc5c2fae4f22bb26bee96a7 = $(`<div id="html_41bb6b2c8cc5c2fae4f22bb26bee96a7" style="width: 100.0%; height: 100.0%;"><b>MGH Telford & Wrekin Business Support</b><br>Support Organisations<br><br>Training courses, Workshops and Events<br><br>Fully funded services include grants for growth, assistance with employee recruitment and retention, one-to-one support, and events and workshops on various topics.<br><a href='https://www.marchesgrowthhub.co.uk/about-us/telford-wrekin/' target='_blank'>More info</a></div>`)[0];
+                popup_9993e00c200ed2d8112aa93c795ba0a5.setContent(html_41bb6b2c8cc5c2fae4f22bb26bee96a7);
+            
+        
+
+        marker_00a5d355f52ad4db8c7a55b6e65c7150.bindPopup(popup_9993e00c200ed2d8112aa93c795ba0a5)
+        ;
+
+        
+    
+    
+            var marker_64a37c12bb1a03a3af99f7477cea4f49 = L.marker(
+                [52.692016, -2.715505],
+                {}
+            ).addTo(map_f371e04db8989e7b2ef8bb2a5d3c6c02);
+        
+    
+            var icon_54205f45ce46dd6f9fb709c8750fe91e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_64a37c12bb1a03a3af99f7477cea4f49.setIcon(icon_54205f45ce46dd6f9fb709c8750fe91e);
+        
+    
+        var popup_485914e41a63cd53bb40924680c3ef54 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_eccf0590e921e1b696c38371d5bd8388 = $(`<div id="html_eccf0590e921e1b696c38371d5bd8388" style="width: 100.0%; height: 100.0%;"><b>Shropshire Business Summit</b><br>Support Organisations<br><br>Summit<br><br>Summit on business growth and development<br><a href='https://www.shropshire.gov.uk/business-support/' target='_blank'>More info</a></div>`)[0];
+                popup_485914e41a63cd53bb40924680c3ef54.setContent(html_eccf0590e921e1b696c38371d5bd8388);
+            
+        
+
+        marker_64a37c12bb1a03a3af99f7477cea4f49.bindPopup(popup_485914e41a63cd53bb40924680c3ef54)
+        ;
+
+        
+    
+    
+            var marker_f2be633115e0fc8f2264d6f0da28729a = L.marker(
+                [52.702907, -2.518546],
+                {}
+            ).addTo(map_f371e04db8989e7b2ef8bb2a5d3c6c02);
+        
+    
+            var icon_d0dcf129cd5fd31cd511953feeb068eb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f2be633115e0fc8f2264d6f0da28729a.setIcon(icon_d0dcf129cd5fd31cd511953feeb068eb);
+        
+    
+        var popup_db4ac219221ee22d1b930e3f30bc7b4f = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_de356a048f8d1466d9d5c427438f92c2 = $(`<div id="html_de356a048f8d1466d9d5c427438f92c2" style="width: 100.0%; height: 100.0%;"><b>Thrive Telford programme</b><br>Support Organisations<br><br>Workshop<br><br>The Telford & Wrekin Council Business Support team is dedicated to helping your business thrive, overcome challenges, and build resilience. Our range of fully funded services include grants for growth, assistance with employee recruitment and retention, one-to-one support, and events and workshops on various topics. <br><a href='https://www.investtelford.co.uk/business-support' target='_blank'>More info</a></div>`)[0];
+                popup_db4ac219221ee22d1b930e3f30bc7b4f.setContent(html_de356a048f8d1466d9d5c427438f92c2);
+            
+        
+
+        marker_f2be633115e0fc8f2264d6f0da28729a.bindPopup(popup_db4ac219221ee22d1b930e3f30bc7b4f)
+        ;
+
+        
+    
+    
+            var marker_409aee208054944144dd96ff52df38e6 = L.marker(
+                [52.71139, -2.756354],
+                {}
+            ).addTo(map_f371e04db8989e7b2ef8bb2a5d3c6c02);
+        
+    
+            var icon_52dca81da2e401218b20a5805473d38a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_409aee208054944144dd96ff52df38e6.setIcon(icon_52dca81da2e401218b20a5805473d38a);
+        
+    
+        var popup_58825741b031c332b65f13c8859298e8 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_f76b72aa395a67b3fe590468ed723021 = $(`<div id="html_f76b72aa395a67b3fe590468ed723021" style="width: 100.0%; height: 100.0%;"><b>Business Boost 360 Platform</b><br>Support Organisations<br><br>Startup<br><br>The Shropshire Growth Hub is here to provide with up to 6 hours of fully funded business support tailored to the needs. The programme will be supported by Masterclass sessions, designed to propel a business forward, boosting the likelihood of sustained business success.<br><a href='https://www.marchesgrowthhub.co.uk/support/business-boost-360/' target='_blank'>More info</a></div>`)[0];
+                popup_58825741b031c332b65f13c8859298e8.setContent(html_f76b72aa395a67b3fe590468ed723021);
+            
+        
+
+        marker_409aee208054944144dd96ff52df38e6.bindPopup(popup_58825741b031c332b65f13c8859298e8)
+        ;
+
+        
+    
+    
+            var marker_79b345983395adc8b1caf663d37b9c7f = L.marker(
+                [52.06941, -2.771803],
+                {}
+            ).addTo(map_f371e04db8989e7b2ef8bb2a5d3c6c02);
+        
+    
+            var icon_ed235b6d6139cec963292d1b9e65780a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_79b345983395adc8b1caf663d37b9c7f.setIcon(icon_ed235b6d6139cec963292d1b9e65780a);
+        
+    
+        var popup_9c7023d55d8550e78bccc0b74576f1bf = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_15b56c1f1135c58a3a89fc1fb9641c5b = $(`<div id="html_15b56c1f1135c58a3a89fc1fb9641c5b" style="width: 100.0%; height: 100.0%;"><b>Herefordshire Business Awards</b><br>Events<br><br>Awards<br><br>Celebrating the achievements of Herefordshire's businesses large or small across the County, showcasing local businesses, creating a strong community, and putting Herefordshire on the map.<br><a href='https://www.herefordshirebusinessawards.co.uk/' target='_blank'>More info</a></div>`)[0];
+                popup_9c7023d55d8550e78bccc0b74576f1bf.setContent(html_15b56c1f1135c58a3a89fc1fb9641c5b);
+            
+        
+
+        marker_79b345983395adc8b1caf663d37b9c7f.bindPopup(popup_9c7023d55d8550e78bccc0b74576f1bf)
+        ;
+
+        
+    
+    
+            var marker_a9e29922a7a2e45200e10915e8cbb48c = L.marker(
+                [52.227703, -2.734649],
+                {}
+            ).addTo(map_f371e04db8989e7b2ef8bb2a5d3c6c02);
+        
+    
+            var icon_f6424b9b8bcfed81de7deecdf0f0c38d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a9e29922a7a2e45200e10915e8cbb48c.setIcon(icon_f6424b9b8bcfed81de7deecdf0f0c38d);
+        
+    
+        var popup_0b0e94449f744652183c92dda1f235ff = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_81d88404155d2db6672f90a3b6c42d56 = $(`<div id="html_81d88404155d2db6672f90a3b6c42d56" style="width: 100.0%; height: 100.0%;"><b>Herefordshire Business Roadshow - Leominster</b><br>Events<br><br>Workshops<br><br>Herefordshire Council’s Economic Development team and Herefordshire Growth Hub will be holding. The Roadshows will provide opportunities to find out the support and advice provided by the relaunched Herefordshire Growth Hub and hear about funding and support available to businesses Business Roadshows across the County during July.<br><a href='https://www.eventbrite.co.uk/e/herefordshire-business-roadshow-leominster-tickets-928494691617?aff=oddtdtcreator' target='_blank'>More info</a></div>`)[0];
+                popup_0b0e94449f744652183c92dda1f235ff.setContent(html_81d88404155d2db6672f90a3b6c42d56);
+            
+        
+
+        marker_a9e29922a7a2e45200e10915e8cbb48c.bindPopup(popup_0b0e94449f744652183c92dda1f235ff)
+        ;
+
+        
+    
+    
+            var marker_2e4740923b7c1e5cc55611e15418f0d8 = L.marker(
+                [52.043566, -2.691487],
+                {}
+            ).addTo(map_f371e04db8989e7b2ef8bb2a5d3c6c02);
+        
+    
+            var icon_da5d0945d58d0dde675e5dd5f5f45214 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2e4740923b7c1e5cc55611e15418f0d8.setIcon(icon_da5d0945d58d0dde675e5dd5f5f45214);
+        
+    
+        var popup_ba2ef1c7302ed88ee16f844f1019d79c = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_89a59fc374eeeed3f2b81e5eb9724764 = $(`<div id="html_89a59fc374eeeed3f2b81e5eb9724764" style="width: 100.0%; height: 100.0%;"><b>Mentoring and Coaching in the workplace</b><br>Events<br><br>Workshop<br><br>This workshop aims to provide a comprehensive understanding of the distinctions between coaching and mentoring, their appropriate applications, and the advantages they can bring to the business.<br><a href='https://www.marchesgrowthhub.co.uk/events/mentoring-and-coaching-in-the-workplace/' target='_blank'>More info</a></div>`)[0];
+                popup_ba2ef1c7302ed88ee16f844f1019d79c.setContent(html_89a59fc374eeeed3f2b81e5eb9724764);
+            
+        
+
+        marker_2e4740923b7c1e5cc55611e15418f0d8.bindPopup(popup_ba2ef1c7302ed88ee16f844f1019d79c)
+        ;
+
+        
+    
+    
+            var marker_236a5b08d8cdfb81cb3f1e44ba93a564 = L.marker(
+                [52.036518, -2.423518],
+                {}
+            ).addTo(map_f371e04db8989e7b2ef8bb2a5d3c6c02);
+        
+    
+            var icon_3e4a9e9e088645d13895392c1eb9848f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_236a5b08d8cdfb81cb3f1e44ba93a564.setIcon(icon_3e4a9e9e088645d13895392c1eb9848f);
+        
+    
+        var popup_d13956793deb7c36316cbdc09fb50836 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_d8e2a9fa5fe726b775fccb32f7897025 = $(`<div id="html_d8e2a9fa5fe726b775fccb32f7897025" style="width: 100.0%; height: 100.0%;"><b>Business Support Surgery</b><br>Events<br><br>Workshop<br><br>Single point of access to information and guidance on business grants, loans, support and advice available to enterprises across the county, regardless of sector, business age or size.<br><a href='https://www.marchesgrowthhub.co.uk/events/business-support-surgery-in-ledbury/' target='_blank'>More info</a></div>`)[0];
+                popup_d13956793deb7c36316cbdc09fb50836.setContent(html_d8e2a9fa5fe726b775fccb32f7897025);
+            
+        
+
+        marker_236a5b08d8cdfb81cb3f1e44ba93a564.bindPopup(popup_d13956793deb7c36316cbdc09fb50836)
+        ;
+
+        
+    
+    
+            var marker_0f5a16739713ad92c0e6f706dbd41ad1 = L.marker(
+                [52.043566, -2.691487],
+                {}
+            ).addTo(map_f371e04db8989e7b2ef8bb2a5d3c6c02);
+        
+    
+            var icon_5438ce03f312442fbf002503f643faf3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0f5a16739713ad92c0e6f706dbd41ad1.setIcon(icon_5438ce03f312442fbf002503f643faf3);
+        
+    
+        var popup_b2fea90d62de876c656e5bc302840c9d = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_a369e218a8082df8c5c433a02b7f4ab6 = $(`<div id="html_a369e218a8082df8c5c433a02b7f4ab6" style="width: 100.0%; height: 100.0%;"><b>BlockChain Beacon MeetUP</b><br>Events<br><br>Meetup<br><br>A meeting to discuss blockchain, bitcoin, Ethereum, altcoins and cryptocurrencies, as well as future trends of the industry and technology. Informal with an opportunity to network.<br><a href='https://www.wyche-innovation.com/events' target='_blank'>More info</a></div>`)[0];
+                popup_b2fea90d62de876c656e5bc302840c9d.setContent(html_a369e218a8082df8c5c433a02b7f4ab6);
+            
+        
+
+        marker_0f5a16739713ad92c0e6f706dbd41ad1.bindPopup(popup_b2fea90d62de876c656e5bc302840c9d)
+        ;
+
+        
+    
+    
+            var marker_1a7ba7a4646d0cf7dde38f9553479b0b = L.marker(
+                [52.088553, -2.341691],
+                {}
+            ).addTo(map_f371e04db8989e7b2ef8bb2a5d3c6c02);
+        
+    
+            var icon_1705710a1b5976c437c1e222154b0624 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1a7ba7a4646d0cf7dde38f9553479b0b.setIcon(icon_1705710a1b5976c437c1e222154b0624);
+        
+    
+        var popup_9d81971fa5f842a3aa6c5673699b8abc = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_c9b95d22de7c56caa4302886e20735a8 = $(`<div id="html_c9b95d22de7c56caa4302886e20735a8" style="width: 100.0%; height: 100.0%;"><b>Malvern Hills Business Forum</b><br>Events<br><br>Meetup<br><br>An informal and friendly meeting for people considering starting a business or those already actively doing so. Formally the Malvern Small Business Forum.<br><a href='https://www.wyche-innovation.com/events' target='_blank'>More info</a></div>`)[0];
+                popup_9d81971fa5f842a3aa6c5673699b8abc.setContent(html_c9b95d22de7c56caa4302886e20735a8);
+            
+        
+
+        marker_1a7ba7a4646d0cf7dde38f9553479b0b.bindPopup(popup_9d81971fa5f842a3aa6c5673699b8abc)
+        ;
+
+        
+    
+    
+            var marker_7663342770b41280287a4f5f5ea890f9 = L.marker(
+                [52.741515, -2.72867],
+                {}
+            ).addTo(map_f371e04db8989e7b2ef8bb2a5d3c6c02);
+        
+    
+            var icon_6c59517e7d3578bf5a4bf6a1be1bea99 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7663342770b41280287a4f5f5ea890f9.setIcon(icon_6c59517e7d3578bf5a4bf6a1be1bea99);
+        
+    
+        var popup_b99c72da879eb3ee23c4958c370b91e4 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_ce9477d9e5be3a9648787a1d4fd13e74 = $(`<div id="html_ce9477d9e5be3a9648787a1d4fd13e74" style="width: 100.0%; height: 100.0%;"><b>Expert Business Advice Sessions with Matthew Woodhead</b><br>Events<br><br>Workshop<br><br>Whether you need a sounding board for a new business idea or would like advice on developing an existing one, why not come and talk to one of our experienced advisers?<br><a href='https://www.marchesgrowthhub.co.uk/events/expert-business-advice-sessions-with-matthew-woodhead-4/' target='_blank'>More info</a></div>`)[0];
+                popup_b99c72da879eb3ee23c4958c370b91e4.setContent(html_ce9477d9e5be3a9648787a1d4fd13e74);
+            
+        
+
+        marker_7663342770b41280287a4f5f5ea890f9.bindPopup(popup_b99c72da879eb3ee23c4958c370b91e4)
+        ;
+
+        
+    
+    
+            var marker_2b4fbdb39dac07d9e29b138357be2fc5 = L.marker(
+                [52.741515, -2.72867],
+                {}
+            ).addTo(map_f371e04db8989e7b2ef8bb2a5d3c6c02);
+        
+    
+            var icon_f0466fe6100773d1eb3cd96b74e41c72 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2b4fbdb39dac07d9e29b138357be2fc5.setIcon(icon_f0466fe6100773d1eb3cd96b74e41c72);
+        
+    
+        var popup_258f307e41750f23075d8b444cb94f31 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_355143aa3e63e781a7cb3f3e19c7da30 = $(`<div id="html_355143aa3e63e781a7cb3f3e19c7da30" style="width: 100.0%; height: 100.0%;"><b>Expert Business Advice Sessions with Jamie Pratt</b><br>Events<br><br>Workshop<br><br>Whether you need a sounding board for a new business idea or would like advice on developing an existing one, why not come and talk to one of our experienced advisers?<br><a href='https://www.marchesgrowthhub.co.uk/events/expert-business-advice-sessions-with-jamie-pratt-2/' target='_blank'>More info</a></div>`)[0];
+                popup_258f307e41750f23075d8b444cb94f31.setContent(html_355143aa3e63e781a7cb3f3e19c7da30);
+            
+        
+
+        marker_2b4fbdb39dac07d9e29b138357be2fc5.bindPopup(popup_258f307e41750f23075d8b444cb94f31)
+        ;
+
+        
+    
+    
+            var marker_3bc886e6fd17731f8bc78d71b0d7cf1f = L.marker(
+                [52.854804, -2.645117],
+                {}
+            ).addTo(map_f371e04db8989e7b2ef8bb2a5d3c6c02);
+        
+    
+            var icon_0c6faf7aa2b0fe3a9f95699de5300ca4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3bc886e6fd17731f8bc78d71b0d7cf1f.setIcon(icon_0c6faf7aa2b0fe3a9f95699de5300ca4);
+        
+    
+        var popup_7d0ed04c9a747c9c9dfab95df81b6df0 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_3d409da62ad1f98ea96de2fdb52afdad = $(`<div id="html_3d409da62ad1f98ea96de2fdb52afdad" style="width: 100.0%; height: 100.0%;"><b>Shropshire Chamber Business Awards Launch</b><br>Events<br><br>Awards<br><br>Successful business relationships are being built during each meeting and business opportunities are happening in the room and outside of the room before the next meeting.<br><a href='https://www.shropshire-chamber.co.uk/events/events-calendar/shropshire-chamber-business-awards-launch' target='_blank'>More info</a></div>`)[0];
+                popup_7d0ed04c9a747c9c9dfab95df81b6df0.setContent(html_3d409da62ad1f98ea96de2fdb52afdad);
+            
+        
+
+        marker_3bc886e6fd17731f8bc78d71b0d7cf1f.bindPopup(popup_7d0ed04c9a747c9c9dfab95df81b6df0)
+        ;
+
+        
+    
+    
+            var marker_d5ac751ff81dc11025b5598dee262923 = L.marker(
+                [52.687947, -2.749747],
+                {}
+            ).addTo(map_f371e04db8989e7b2ef8bb2a5d3c6c02);
+        
+    
+            var icon_76e0470d7c6d01a427b004704f092529 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d5ac751ff81dc11025b5598dee262923.setIcon(icon_76e0470d7c6d01a427b004704f092529);
+        
+    
+        var popup_7c707ecee73845339e23c4b2d50b2aad = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_c3907a76549005f7553c7fa90a840f0b = $(`<div id="html_c3907a76549005f7553c7fa90a840f0b" style="width: 100.0%; height: 100.0%;"><b>Connectin Business Expo</b><br>Events<br><br>Expo<br><br> This event is ideal for businesses looking to forge new contacts, raise their profile and extend their business knowledge.<br><a href='https://www.shropshire-chamber.co.uk/events/events-calendar/connectin-business-expo-3' target='_blank'>More info</a></div>`)[0];
+                popup_7c707ecee73845339e23c4b2d50b2aad.setContent(html_c3907a76549005f7553c7fa90a840f0b);
+            
+        
+
+        marker_d5ac751ff81dc11025b5598dee262923.bindPopup(popup_7c707ecee73845339e23c4b2d50b2aad)
+        ;
+
+        
+    
+    
+            var marker_3484e8f9732cb992a044d91117244ee9 = L.marker(
+                [52.857315, -2.642852],
+                {}
+            ).addTo(map_f371e04db8989e7b2ef8bb2a5d3c6c02);
+        
+    
+            var icon_576237d3ad67a483f475dfa4121e78cb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3484e8f9732cb992a044d91117244ee9.setIcon(icon_576237d3ad67a483f475dfa4121e78cb);
+        
+    
+        var popup_1b1a741879d714490d7320937397192e = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_531fad06104994778337b84daa5a213a = $(`<div id="html_531fad06104994778337b84daa5a213a" style="width: 100.0%; height: 100.0%;"><b>Network of Women</b><br>Events<br><br>Networking Event<br><br>Set up with a purpose of looking to create a relaxed group in which women could network and build mutually beneficial relationships with like-minded women. Our meetings are a great place to meet new people, gain new knowledge and help grow your business.<br><a href='https://www.shropshire-chamber.co.uk/events/events-calendar/network-of-women-delivered-by-shropshire-chamber-14' target='_blank'>More info</a></div>`)[0];
+                popup_1b1a741879d714490d7320937397192e.setContent(html_531fad06104994778337b84daa5a213a);
+            
+        
+
+        marker_3484e8f9732cb992a044d91117244ee9.bindPopup(popup_1b1a741879d714490d7320937397192e)
+        ;
+
+        
+    
+    
+            var marker_b0bfe4596174fd620698d69fe26f6f60 = L.marker(
+                [52.674233, -2.767394],
+                {}
+            ).addTo(map_f371e04db8989e7b2ef8bb2a5d3c6c02);
+        
+    
+            var icon_75c28ded4f6a1540fc183623d0cd1cd7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b0bfe4596174fd620698d69fe26f6f60.setIcon(icon_75c28ded4f6a1540fc183623d0cd1cd7);
+        
+    
+        var popup_b1c8345ed79815e11bcfd5e2fc841f7b = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_4dedcc2fcbfc848fbd8e369aa60817e2 = $(`<div id="html_4dedcc2fcbfc848fbd8e369aa60817e2" style="width: 100.0%; height: 100.0%;"><b>Let’s Do Business in…Bayston Hill</b><br>Events<br><br>Workshop<br><br>The team offers advice and support for businesses or entrepreneurs looking to establish a new venture or grow an existing business.<br><a href='https://www.investinshropshire.co.uk/event/lets-do-business-in-bayston-hill/' target='_blank'>More info</a></div>`)[0];
+                popup_b1c8345ed79815e11bcfd5e2fc841f7b.setContent(html_4dedcc2fcbfc848fbd8e369aa60817e2);
+            
+        
+
+        marker_b0bfe4596174fd620698d69fe26f6f60.bindPopup(popup_b1c8345ed79815e11bcfd5e2fc841f7b)
+        ;
+
+        
+    
+    
+            var marker_a02215876f3ce6d80e44a17a92fe513c = L.marker(
+                [52.728201, -2.715446],
+                {}
+            ).addTo(map_f371e04db8989e7b2ef8bb2a5d3c6c02);
+        
+    
+            var icon_95d6808c4c3010b475167124e702a3f2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a02215876f3ce6d80e44a17a92fe513c.setIcon(icon_95d6808c4c3010b475167124e702a3f2);
+        
+    
+        var popup_fd5afe3fb22badccc03c919d676c4908 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_9f40503e6b339a88aecc026e940b96e1 = $(`<div id="html_9f40503e6b339a88aecc026e940b96e1" style="width: 100.0%; height: 100.0%;"><b>Business Leaders’ Breakfast 2024 – Date For Your Diary</b><br>Events<br><br>Workshop<br><br>Since 2017, this event has been regularly attended by over 100 Shropshire businesses each year and has become a major event in the Economic Growth calendar.<br><a href='https://www.investinshropshire.co.uk/event/business-leaders-breakfast-2024-date-for-your-diary/' target='_blank'>More info</a></div>`)[0];
+                popup_fd5afe3fb22badccc03c919d676c4908.setContent(html_9f40503e6b339a88aecc026e940b96e1);
+            
+        
+
+        marker_a02215876f3ce6d80e44a17a92fe513c.bindPopup(popup_fd5afe3fb22badccc03c919d676c4908)
+        ;
+
+        
+    
+    
+            var marker_4d80a0bb46cc5d0b7ba19826e576e71a = L.marker(
+                [52.674053, -2.447126],
+                {}
+            ).addTo(map_f371e04db8989e7b2ef8bb2a5d3c6c02);
+        
+    
+            var icon_ce0d3094835a5f0804102efe759805a1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4d80a0bb46cc5d0b7ba19826e576e71a.setIcon(icon_ce0d3094835a5f0804102efe759805a1);
+        
+    
+        var popup_cabfeaff558b281e92fb01e6dc543c15 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_62fbca5fe140a1bfb8963d38acfbabaa = $(`<div id="html_62fbca5fe140a1bfb8963d38acfbabaa" style="width: 100.0%; height: 100.0%;"><b>Start-up Essentials - Part1 workshop programme</b><br>Events<br><br>Workshop<br><br>The Invest Telford team have designed a  brand new programme specifically supporting newly trading start-ups with the essentials in business. 1er. Planning for your Business.<br><a href='https://www.investtelford.co.uk/events' target='_blank'>More info</a></div>`)[0];
+                popup_cabfeaff558b281e92fb01e6dc543c15.setContent(html_62fbca5fe140a1bfb8963d38acfbabaa);
+            
+        
+
+        marker_4d80a0bb46cc5d0b7ba19826e576e71a.bindPopup(popup_cabfeaff558b281e92fb01e6dc543c15)
+        ;
+
+        
+    
+    
+            var marker_19a26b1cd43eef5c81487ac474e30fc4 = L.marker(
+                [52.674053, -2.447126],
+                {}
+            ).addTo(map_f371e04db8989e7b2ef8bb2a5d3c6c02);
+        
+    
+            var icon_1d92043093ea778ce9bb5c0e285bc016 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_19a26b1cd43eef5c81487ac474e30fc4.setIcon(icon_1d92043093ea778ce9bb5c0e285bc016);
+        
+    
+        var popup_2b952ab053aee44c8cb19503cc586673 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_cec7f2a064bc3ebce3c3ca230fed6366 = $(`<div id="html_cec7f2a064bc3ebce3c3ca230fed6366" style="width: 100.0%; height: 100.0%;"><b>Start-up Essentials - Part2 workshop programme</b><br>Events<br><br>Workshop<br><br>The Invest Telford team have designed a  brand new programme specifically supporting newly trading start-ups with the essentials in business. 2nd. Financial Planning and Forecasting (2 Hours).<br><a href='https://www.investtelford.co.uk/events' target='_blank'>More info</a></div>`)[0];
+                popup_2b952ab053aee44c8cb19503cc586673.setContent(html_cec7f2a064bc3ebce3c3ca230fed6366);
+            
+        
+
+        marker_19a26b1cd43eef5c81487ac474e30fc4.bindPopup(popup_2b952ab053aee44c8cb19503cc586673)
+        ;
+
+        
+    
+    
+            var marker_c555bcb4241475353f5cc53a6d1d6046 = L.marker(
+                [52.674053, -2.447126],
+                {}
+            ).addTo(map_f371e04db8989e7b2ef8bb2a5d3c6c02);
+        
+    
+            var icon_76dd3f6ed3ebba7ec748007e0567b46f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c555bcb4241475353f5cc53a6d1d6046.setIcon(icon_76dd3f6ed3ebba7ec748007e0567b46f);
+        
+    
+        var popup_1079fd5329f64cb364c87212021d5a5b = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_966a01575349be521e5f10b73fa17524 = $(`<div id="html_966a01575349be521e5f10b73fa17524" style="width: 100.0%; height: 100.0%;"><b>Start-up Essentials - Part3 workshop programme</b><br>Events<br><br>Workshop<br><br>The Invest Telford team have designed a  brand new programme specifically supporting newly trading start-ups with the essentials in business.  3er. Marketing the Deeper Dive – Creating the Demand (2 Hours).<br><a href='https://www.investtelford.co.uk/events' target='_blank'>More info</a></div>`)[0];
+                popup_1079fd5329f64cb364c87212021d5a5b.setContent(html_966a01575349be521e5f10b73fa17524);
+            
+        
+
+        marker_c555bcb4241475353f5cc53a6d1d6046.bindPopup(popup_1079fd5329f64cb364c87212021d5a5b)
+        ;
+
+        
+    
+    
+            var marker_e162bb5de653f69d3ad7b00ab5cab2e3 = L.marker(
+                [52.193777, -2.226081],
+                {}
+            ).addTo(map_f371e04db8989e7b2ef8bb2a5d3c6c02);
+        
+    
+            var icon_7c2b32e3b8b81cfb428633cd7520ca71 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e162bb5de653f69d3ad7b00ab5cab2e3.setIcon(icon_7c2b32e3b8b81cfb428633cd7520ca71);
+        
+    
+        var popup_367ef8f501bcc91cd7c847459f814a41 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_f92aa04eca1f79ffcacec53873ce126c = $(`<div id="html_f92aa04eca1f79ffcacec53873ce126c" style="width: 100.0%; height: 100.0%;"><b>Artificial Intelligence (AI) Forum in Worcester</b><br>Events<br><br>Workshop<br><br>This event is designed to provide a holistic view of AI, covering its implications, challenges, and opportunities across various domains, through a panel discussion with industry experts and leaders and live exercises. <br><a href='https://www.beta-den.com/events/02102024/artificial-intelligence-ai-forum-in-worcester/' target='_blank'>More info</a></div>`)[0];
+                popup_367ef8f501bcc91cd7c847459f814a41.setContent(html_f92aa04eca1f79ffcacec53873ce126c);
+            
+        
+
+        marker_e162bb5de653f69d3ad7b00ab5cab2e3.bindPopup(popup_367ef8f501bcc91cd7c847459f814a41)
+        ;
+
+        
+    
+    
+            var marker_9e95810cbcdbb638a2e1fa3a5979638a = L.marker(
+                [52.190832, -2.220781],
+                {}
+            ).addTo(map_f371e04db8989e7b2ef8bb2a5d3c6c02);
+        
+    
+            var icon_bb60e8ecc808cb61d2f3e46beff7b02e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9e95810cbcdbb638a2e1fa3a5979638a.setIcon(icon_bb60e8ecc808cb61d2f3e46beff7b02e);
+        
+    
+        var popup_66b9b947aeb67420980a410afbcd1cc1 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_8c849907a2c0856b51e60181875acd6b = $(`<div id="html_8c849907a2c0856b51e60181875acd6b" style="width: 100.0%; height: 100.0%;"><b>StartUp Social: Networking Event</b><br>Events<br><br>Networking Event<br><br>This is a perfect opportunity to connect with local businesses, entrepreneurs, and some of the most innovative professionals in Worcestershire's tech industry whilst enjoying a drink in a relaxed social environment.<br><a href='https://www.beta-den.com/events/15082024/startup-social-networking-event/' target='_blank'>More info</a></div>`)[0];
+                popup_66b9b947aeb67420980a410afbcd1cc1.setContent(html_8c849907a2c0856b51e60181875acd6b);
+            
+        
+
+        marker_9e95810cbcdbb638a2e1fa3a5979638a.bindPopup(popup_66b9b947aeb67420980a410afbcd1cc1)
+        ;
+
+        
+    
+    
+            var marker_4267cf799abf7553879242627ccf9fdb = L.marker(
+                [52.193777, -2.226081],
+                {}
+            ).addTo(map_f371e04db8989e7b2ef8bb2a5d3c6c02);
+        
+    
+            var icon_6e04e438f7674b07a45abd36fe9fce38 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4267cf799abf7553879242627ccf9fdb.setIcon(icon_6e04e438f7674b07a45abd36fe9fce38);
+        
+    
+        var popup_b6c5439efbc084a1fdf42404d269b89d = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_0bb85c2fc773f6abe91339ba2778cf8e = $(`<div id="html_0bb85c2fc773f6abe91339ba2778cf8e" style="width: 100.0%; height: 100.0%;"><b>Business Start-up Essentials</b><br>Events<br><br>Workshop<br><br>If somebody is thinking of starting a business or becoming self-employed in Worcestershire and would like to know what resources are available to help grow their business.<br><a href='https://www.worcestershire.gov.uk/events/business-start-essentials-4' target='_blank'>More info</a></div>`)[0];
+                popup_b6c5439efbc084a1fdf42404d269b89d.setContent(html_0bb85c2fc773f6abe91339ba2778cf8e);
+            
+        
+
+        marker_4267cf799abf7553879242627ccf9fdb.bindPopup(popup_b6c5439efbc084a1fdf42404d269b89d)
+        ;
+
+        
+    
+    
+            var marker_6aba53e36ecb2bf8876f93677746e6a4 = L.marker(
+                [52.193777, -2.226081],
+                {}
+            ).addTo(map_f371e04db8989e7b2ef8bb2a5d3c6c02);
+        
+    
+            var icon_549d9f37effd10a6780c3ce271ce6022 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6aba53e36ecb2bf8876f93677746e6a4.setIcon(icon_549d9f37effd10a6780c3ce271ce6022);
+        
+    
+        var popup_564d934e9f2205c699adbefc4a6328dd = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_796414e510d1a738f6b2c9a87e7ed6ec = $(`<div id="html_796414e510d1a738f6b2c9a87e7ed6ec" style="width: 100.0%; height: 100.0%;"><b>The Hive - Business Support Drop-in Clinic</b><br>Events<br><br>Workshop<br><br>Starting a business or becoming self-employed in Worcestershire, this worshop shows what resources are available to help grow their business, offer guidance for those first key steps and show the business research tools to get industry & market information.<br><a href='https://www.worcestershire.gov.uk/events/hive-business-support-drop-clinic-1' target='_blank'>More info</a></div>`)[0];
+                popup_564d934e9f2205c699adbefc4a6328dd.setContent(html_796414e510d1a738f6b2c9a87e7ed6ec);
+            
+        
+
+        marker_6aba53e36ecb2bf8876f93677746e6a4.bindPopup(popup_564d934e9f2205c699adbefc4a6328dd)
+        ;
+
+        
+    
+    
+            var marker_faec3de585baeeac04408a8de7c80926 = L.marker(
+                [52.266959, -2.150043],
+                {}
+            ).addTo(map_f371e04db8989e7b2ef8bb2a5d3c6c02);
+        
+    
+            var icon_5ea6b161a9965e1f29e418e6da63dc5d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_faec3de585baeeac04408a8de7c80926.setIcon(icon_5ea6b161a9965e1f29e418e6da63dc5d);
+        
+    
+        var popup_2a00f0d3b465a46b6f77edf3fa5aae36 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_6a15d2ca05f76361419837aedfd091a9 = $(`<div id="html_6a15d2ca05f76361419837aedfd091a9" style="width: 100.0%; height: 100.0%;"><b>Droitwich Library Business Chat</b><br>Events<br><br>Networking Event<br><br>Informal business networking event, hosted by the Business & IP Centre Worcestershire is a relaxed event where you can meet other SMEs and start-ups.<br><a href='https://www.worcestershire.gov.uk/events/droitwich-library-business-chat-5' target='_blank'>More info</a></div>`)[0];
+                popup_2a00f0d3b465a46b6f77edf3fa5aae36.setContent(html_6a15d2ca05f76361419837aedfd091a9);
+            
+        
+
+        marker_faec3de585baeeac04408a8de7c80926.bindPopup(popup_2a00f0d3b465a46b6f77edf3fa5aae36)
+        ;
+
+        
+    
+    
+            var marker_9c0d99a584da247fbfec88711c69ad66 = L.marker(
+                [52.180583, -2.07964],
+                {}
+            ).addTo(map_f371e04db8989e7b2ef8bb2a5d3c6c02);
+        
+    
+            var icon_7650aad610a53c091e1f53cc603615c4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9c0d99a584da247fbfec88711c69ad66.setIcon(icon_7650aad610a53c091e1f53cc603615c4);
+        
+    
+        var popup_9b9d3284dfcb798896c1d8adee291e0b = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_6051926b6dea45c68b29d9345fd0f032 = $(`<div id="html_6051926b6dea45c68b29d9345fd0f032" style="width: 100.0%; height: 100.0%;"><b>RWC: Business Mixer –  Networking</b><br>Events<br><br>Networking Event<br><br>A free networking event at RWC’s office. It will be a relaxed get-together to meet fellow Worcestershire business owners.<br><a href='https://worcestershiregrowthhub.co.uk/event/rwc-business-mixer-free-networking-2/' target='_blank'>More info</a></div>`)[0];
+                popup_9b9d3284dfcb798896c1d8adee291e0b.setContent(html_6051926b6dea45c68b29d9345fd0f032);
+            
+        
+
+        marker_9c0d99a584da247fbfec88711c69ad66.bindPopup(popup_9b9d3284dfcb798896c1d8adee291e0b)
+        ;
+
+        
+    
+    
+            var marker_e002619b9f736c8e6bf0acdedf81c70f = L.marker(
+                [52.5, -1.5],
+                {}
+            ).addTo(map_f371e04db8989e7b2ef8bb2a5d3c6c02);
+        
+    
+            var div_icon_73226fc740f5689854dafd788afb445f = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"position: fixed;\n                top: 10px; left: 10px; width: 200px; height: auto;\n                background-color: rgba(255, 255, 255, 0.8); border:2px solid grey; z-index:9999; font-size:14px;\n                padding: 10px;\"\u003e\n                \u003cb\u003eProgram Types\u003c/b\u003e\u003cbr\u003e\n                \u003ci style=\u0027background-color:red; border-radius:50%; display:inline-block; width:12px; height:12px;\u0027\u003e\u003c/i\u003e\u0026nbsp;Accelerator\u003cbr\u003e\u003ci style=\u0027background-color:orange; border-radius:50%; display:inline-block; width:12px; height:12px;\u0027\u003e\u003c/i\u003e\u0026nbsp;Incubator\u003cbr\u003e\u003ci style=\u0027background-color:pink; border-radius:50%; display:inline-block; width:12px; height:12px;\u0027\u003e\u003c/i\u003e\u0026nbsp;Coworking Space+\u003cbr\u003e\u003ci style=\u0027background-color:purple; border-radius:50%; display:inline-block; width:12px; height:12px;\u0027\u003e\u003c/i\u003e\u0026nbsp;Coworking Space\u003cbr\u003e\u003ci style=\u0027background-color:green; border-radius:50%; display:inline-block; width:12px; height:12px;\u0027\u003e\u003c/i\u003e\u0026nbsp;Support Organisations\u003cbr\u003e\u003ci style=\u0027background-color:blue; border-radius:50%; display:inline-block; width:12px; height:12px;\u0027\u003e\u003c/i\u003e\u0026nbsp;Events\u003cbr\u003e\u003c/div\u003e"});
+            marker_e002619b9f736c8e6bf0acdedf81c70f.setIcon(div_icon_73226fc740f5689854dafd788afb445f);
+        
+</script>
+</html>
